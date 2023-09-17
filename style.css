@@ -1,0 +1,135 @@
+/* Reset default margin and padding on the body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* Apply Poppins font family to all text */
+}
+
+/* Center-align the title */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    /* Adjust the margin-top to your preference */
+}
+
+/* Style for the search form */
+form {
+    text-align: center;
+    margin-top: 20px;
+    /* Adjust the margin-top to your preference */
+}
+
+/* Style for the search input */
+#search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for the search button */
+#search-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Style for the search results container */
+.search-results {
+    text-align: center;
+    /* Center-align the content in the container */
+}
+
+/* Style for the individual image and link container */
+.search-class {
+    margin: 10px;
+    max-width: 300px;
+    /* Adjust the max-width to your preference */
+    text-align: center;
+    display: inline-block;
+    /* Display the containers horizontally */
+    vertical-align: top;
+    /* Align containers to the top */
+}
+
+/* Style for the card */
+.card {
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.5s ease-in-out;
+    /* Apply transition to opacity */
+}
+
+/* Apply hover effect to the entire card */
+.card:hover {
+    opacity: 0.8;
+}
+
+/* Style for the image inside the card */
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Style for the text inside the card */
+.card-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Style for the "Get more Natural Images" link */
+.get-more-images {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    /* Adjust the margin-top as needed */
+}
+
+.get-more-images:hover {
+    text-decoration: underline;
+}
+
+#show-more-button {
+    background-color: rgb(33, 138, 138);
+    font-size: 18px;
+    border: none;
+    color: white;
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+    border-radius: 5px;
+    width: px;
+    height: 50px;
+    cursor: pointer;
+    /* display: none; */
+}
+
+@media screen and (max-width:768px) {
+    .search-results {
+        padding: 20px;
+    }
+
+    .search-results {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .search-results {
+        width: 100%;
+    }
+}
